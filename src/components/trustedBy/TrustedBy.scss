@@ -1,5 +1,5 @@
 .trustedby{
-    background-color: #fafafa;
+    background-color: #ededed;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -9,10 +9,11 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
-        color: lightgrey;
+        color: rgb(190, 190, 190);
         font-weight: 500;
         img{
-            height: 50px;object-fit: contain;
+            height: 50px;
+            object-fit: contain;
         }
     }
 }

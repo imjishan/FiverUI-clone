@@ -1,6 +1,6 @@
 import "./Featured.scss";
-import Search from "../../../public/img/search.png";
-import Man from "../../../public/img/man.png";
+import Search from "../../Assets/img/search.png";
+import Man from "../../Assets/img/man.png";
 const Featured = () => {
   return (
     <div className="featured">

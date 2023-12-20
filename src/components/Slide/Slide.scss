@@ -1,18 +1,19 @@
-.slide{
-    display: flex;
-    justify-content: center;
-    padding: 100px 0px;
-    .container{
-        width: 1100px;
-        .carousel-prev,.carousel-next{
-            height: 50px;
-            width: 50px;
-            background-color: lightgray;
-            border-radius: 50%;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }
+.slide {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+  .container {
+    width: 1090px;
+    .carousel-next,
+    .carousel-prev {
+      height: 45px;
+      width: 45px;
+      background-color: lightgray;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
     }
+  }
 }

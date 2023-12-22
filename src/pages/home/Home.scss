@@ -1,8 +1,39 @@
 .features {
-  background-color: #f1fdf7;
+  background-color: #d9ffec;
   display: flex;
   justify-content: center;
   padding: 90px 0;
+
+  &.dark {
+    background-color: #0d084d;
+    h1 {
+      color: white !important;
+    }
+    p {
+      color: white !important;
+      margin-bottom: 20px !important;
+    }
+    .title {
+      color: white !important;
+      font-weight: 300 !important;
+      font-size: 15px !important;
+    }
+    video {
+      width: 100%;
+    }
+    button {
+      background-color: #1dbf73;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 2px;
+      font-size: 17px;
+      cursor: pointer;
+      outline: none;
+      margin-top: 20px;
+      border: none;
+      width: max-content;
+    }
+  }
 
   .container {
     display: flex;

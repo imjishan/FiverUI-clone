@@ -11,7 +11,6 @@ const Slide = () => {
           slidesToShow={5}
           arrowsScroll={5}
           autoplay={true}
-          wheel={true}
           wheelScroll={1}
         >
           {cards.map((card) => (

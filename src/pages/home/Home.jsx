@@ -55,6 +55,34 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="features dark">
+        <div className="container">
+          <div className="item">
+            <h1>fiver business</h1>
+            <h1>A business solution designed for teams</h1>
+            <p>
+              Upgrade to a curated experience packed with tools and benifits,
+              dedicated to businesses
+            </p>
+            <div className="title">
+              <img src={Check} alt="" />
+              Connect to freelancers with proven business experience
+            </div>
+            <div className="title">
+              <img src={Check} alt="" />
+              Connect to freelancers with proven business experience
+            </div>
+            <div className="title">
+              <img src={Check} alt="" />
+              Connect to freelancers with proven business experience
+            </div>
+            <button>Explore fiver business</button>
+          </div>
+          <div className="item">
+            <video src={Video} controls></video>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

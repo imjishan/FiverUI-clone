@@ -4,6 +4,7 @@ import TrustedBy from "../../components/trustedBy/TrustedBy";
 import Slide from "../../components/Slide/Slide";
 import Video from "../../Assets/img/video.mp4";
 import Check from "../../Assets/img/check.png";
+import ProjectSlide from "../../components/ProjectSlide/ProjectSlide";
 
 const Home = () => {
   return (
@@ -83,6 +84,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <ProjectSlide></ProjectSlide>
     </div>
   );
 };

@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
-import "./Catcard.scss";
+import "./Projectcard.scss";
 
-const Catcard = ({ item }) => {
+const Projectcard = ({ item }) => {
   return (
     <Link to="/gigs?cat=design">
       <div className="catcard">
-        <img src={item.img} alt="" />
+        <img src="{item.img}" alt="" />
         <span className="desc">{item.desc}</span>
         <span className="title">{item.title}</span>
       </div>
     </Link>
   );
 };
-export default Catcard;
+export default Projectcard;

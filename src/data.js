@@ -2,7 +2,7 @@ export const cards = [
   {
     id: 1,
     title: "AI Artists",
-    desc: "",
+    desc: "Amazing images using AI",
   },
   {
     id: 3,

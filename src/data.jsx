@@ -1,44 +1,53 @@
+import Ai from "./Assets/img/ai.jpg";
+import Wordpress from "./Assets/img/wordpress.jpg";
+import Voiceover from "./Assets/img/voiceover.jpg";
+import Video from "./Assets/img/video.jpg";
+import Socialmedia from "./Assets/img/socialmedia.jpg";
+import Seo from "./Assets/img/seo.jpg";
+import Illustration from "./Assets/img/illustration.jpg";
+
 export const cards = [
   {
     id: 1,
     title: "AI Artists",
     desc: "Amazing images using AI",
+    img: { Ai },
   },
   {
     id: 3,
     title: "WordPress",
     desc: "Customize your site",
-    img: "",
+    img: { Wordpress },
   },
   {
     id: 4,
     title: "Voice Over",
     desc: "Share your message",
-    img: "",
+    img: { Voiceover },
   },
   {
     id: 5,
     title: "Video Explainer",
     desc: "Engage your audience",
-    img: "",
+    img: { Video },
   },
   {
     id: 6,
     title: "Social Media",
     desc: "Reach more customers",
-    img: "",
+    img: { Socialmedia },
   },
   {
     id: 7,
     title: "SEO",
     desc: "Unlock growth online",
-    img: "",
+    img: { Seo },
   },
   {
     id: 8,
     title: "Illustration",
     desc: "Color you dreams",
-    img: "",
+    img: { Illustration },
   },
 ];
 

@@ -88,7 +88,9 @@ const Footer = () => {
         <div className="bottom">
           <div className="left">
             <h2>Fiver</h2>
-            <span>&copy; Fiver International Ltd. 2023</span>
+            <span>
+              &copy; This Website is not for commercial use, Created by Jishan
+            </span>
           </div>
           <div className="right">
             <div className="social">

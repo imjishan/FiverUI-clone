@@ -1,4 +1,4 @@
-import "GigCard.scss";
+import "./GigCard.scss";
 import star from "../../Assets/img/star.png";
 import heart from "../../Assets/img/heart.png";
 import { Link } from "react-router-dom";
